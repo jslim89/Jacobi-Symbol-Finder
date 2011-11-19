@@ -69,7 +69,7 @@ int compute(fraction input) {
             input = prop2(input);
             // Since this is last step, so we manually set the 
             // value and break the iteration
-            input.numerator = 1 * input.sign;
+            input.numerator = 1;
             input.denominator = 1;
             printf("\nProp 2\n");
             printFraction(input);
