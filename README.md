@@ -8,5 +8,5 @@ i.e.  Numerator/Denominator = 7411/9283
      The final result will be -1
 
 ## Source Code & Download
-* Browse and checkout the [source code](git://github.com/jslim89/Jacobi-Symbol-Finder.git).
+* Browse and checkout the [source code](https://github.com/jslim89/Jacobi-Symbol-Finder.git).
 * [Download](https://github.com/jslim89/Jacobi-Symbol-Finder/zipball/master) the project.
