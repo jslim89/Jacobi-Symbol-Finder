@@ -57,6 +57,11 @@ int main() {
 int compute(fraction input) {
     int result;
     do {
+        // Once the numerator become 1, then the whole thing will be 1
+        if(input.numerator == 1) {
+            input.denominator = 1;
+            break;
+        }
         // If numerator is even excluding 2, since if the numerator
         // is 2, then it should go to prop 2
         if(isEven(input.numerator) > 0 && input.numerator != 2) {
@@ -85,7 +90,7 @@ int compute(fraction input) {
             printf("\nProp 1\n");
             printFraction(input);
         }
-    } while(input.numerator > 1 && input.denominator > 1);
+    } while(input.numerator > 0 && input.denominator > 0);
     result = fractionToInt(input);
     return result;
 }
